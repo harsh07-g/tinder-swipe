@@ -15,15 +15,13 @@ export default function ProfileModal({ user, onClose }: ProfileModalProps) {
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={e => e.stopPropagation()}>
         <button className={styles.close} onClick={onClose}>Close</button>
-        
-        <Image
+
+        <img
           src={user.picture}
           alt={user.name}
-          width={300} 
-          height={300}
-          style={{ width: '100%', borderRadius: 8 }}
-           unoptimized
+          style={{ width: '100%', height: 300, borderRadius: 8 }}
         />
+
 
         <h2>{user.name}, {user.age}</h2>
         <p><strong>Location:</strong> {user.location}</p>
