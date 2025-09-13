@@ -36,6 +36,7 @@ export default function SwipeCard({ user, onLike, onSkip, onViewProfile }: Props
           height={300}
           className={styles.avatar}
           style={{ borderRadius: '8px' }}
+            unoptimized
         />
         <div className={styles.info}>
           <h2>{user.name}, {user.age}</h2>

@@ -22,6 +22,7 @@ export default function ProfileModal({ user, onClose }: ProfileModalProps) {
           width={300} 
           height={300}
           style={{ width: '100%', borderRadius: 8 }}
+           unoptimized
         />
 
         <h2>{user.name}, {user.age}</h2>

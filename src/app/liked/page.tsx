@@ -32,6 +32,7 @@ export default function LikedPage() {
                 width={160}
                 height={160}
                 style={{ borderRadius: 8 }}
+                 unoptimized
               />
               <h3>{user.name}</h3>
               <p style={{ margin: 0 }}>{user.location}</p>
