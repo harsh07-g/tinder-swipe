@@ -1,0 +1,28 @@
+
+ .overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 380px;
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.close {
+  float: right;
+  margin-bottom: 8px;
+} 
+
+
+
+
+
+
